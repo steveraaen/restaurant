@@ -88,7 +88,7 @@ function runTableQuery() {
 }
 function runWaitListQuery() {
     var currentUrl = window.location.origin;
-
+console.log(currentUrl)
     $.ajax({
         url: currentUrl + "/api/waitlist",
         method: "GET"
